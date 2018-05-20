@@ -49,13 +49,13 @@ $mm-input-required-asterisk-color: $red !default;
 $item-input-padding: 16px !default;
 
 $mm-progress-bar-height: 5px !default;
-$bar-content-bg: black;
-$mm-color-init-screen: black;
+$bar-content-bg: #000000 !default;
+$mm-color-init-screen: #000000 !default;
 /**
  * App Branding
  */
 .mm-bglogo {
-  background-color: black; /* Change this to add a bg image or change color */
+  background-color: #000000 !default; /* Change this to add a bg image or change color */
   background: -webkit-radial-gradient(black, black);
   background: radial-gradient(black, black);
   background-repeat: no-repeat;

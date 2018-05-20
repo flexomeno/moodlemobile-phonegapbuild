@@ -55,9 +55,9 @@ $mm-color-init-screen: black;
  * App Branding
  */
 .mm-bglogo {
-  background-color: $mm-color-init-screen; /* Change this to add a bg image or change color */
-  background: -webkit-radial-gradient($mm-color-init-screen-alt, $mm-color-init-screen);
-  background: radial-gradient($mm-color-init-screen-alt, $mm-color-init-screen);
+  background-color: black; /* Change this to add a bg image or change color */
+  background: -webkit-radial-gradient(black, black);
+  background: radial-gradient(black, black);
   background-repeat: no-repeat;
   background-position: center center;
   position: absolute;
@@ -121,7 +121,7 @@ a.button {
 
 // Default bar.
 .bar-content {
-  @include bar-style($bar-content-bg, $bar-content-border, $bar-content-text);
+  @include bar-style(black, $bar-content-border, $bar-content-text);
   .button {
     @include button-style($bar-content-bg, $bar-content-border, $bar-content-bg, $bar-content-border, $bar-content-text);
     @include button-clear($bar-content-text, $bar-title-font-size);

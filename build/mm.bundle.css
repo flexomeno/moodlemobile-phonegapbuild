@@ -3985,9 +3985,9 @@ a.subdued {
     .bar.bar-energized.bar-footer {
       background-image: linear-gradient(180deg, #f7a304, #f7a304 50%, transparent 50%); }
   .bar.bar-royal {
-    border-color: #000000;
-    background-color: #000000;
-    background-image: linear-gradient(0deg, #000000, #000000 50%, transparent 50%);
+    border-color: #dd6c06;
+    background-color: #f98012;
+    background-image: linear-gradient(0deg, #dd6c06, #dd6c06 50%, transparent 50%);
     color: #fff; }
     .bar.bar-royal .title {
       color: #fff; }
@@ -4282,7 +4282,6 @@ a.subdued {
     background: none; }
 
 .bar-header {
-  background-color: blue;
   top: 0;
   border-top-width: 0;
   border-bottom-width: 1px; }
@@ -10285,7 +10284,9 @@ a.button {
   z-index: 10; }
   [nav-bar-transition="ios"] [nav-bar="active"] .bar,
   [nav-bar-transition="ios"] [nav-bar="entering"] .bar {
-    background: transparent; }
+    background: transparent; 
+	background-color: black; }
+	
 
 [nav-bar-transition="ios"] [nav-bar="cached"] {
   display: block; }
@@ -10808,7 +10809,7 @@ p.item-text-wrap {
     opacity: 0.6; }
   .mm-tabs-color .tab-item.tab-item-active, .mm-tabs-color .tab-item.active, .mm-tabs-color .tab-item.activated {
     color: #f98012;
-    border: 0 solid #f98012; }
+    border: 0 solid #000000; }
     .mm-tabs-color .tab-item.tab-item-active .badge, .mm-tabs-color .tab-item.tab-item-active .mma-messages-date span, .mma-messages-date .mm-tabs-color .tab-item.tab-item-active span, .mm-tabs-color .tab-item.tab-item-active
     .mma-messages-unreadfrom span,
     .mma-messages-unreadfrom .mm-tabs-color .tab-item.tab-item-active span, .mm-tabs-color .tab-item.tab-item-active .mma-chat-notice span, .mma-chat-notice .mm-tabs-color .tab-item.tab-item-active span, .mm-tabs-color .tab-item.active .badge, .mm-tabs-color .tab-item.active .mma-messages-date span, .mma-messages-date .mm-tabs-color .tab-item.active span, .mm-tabs-color .tab-item.active
@@ -12651,7 +12652,7 @@ mm-course-mod-description .card .item, mm-course-mod-description .card .mm-grade
         width: 100%; }
         .progress-chart-container .progress-doughnut .progress-indicator svg .circle {
           stroke-width: 15px;
-          stroke: #fa9b44;
+          stroke: #000000;
           fill: none;
           stroke-dasharray: 173;
           stroke-dashoffset: 173;
@@ -13259,7 +13260,7 @@ li.mm-question-answer-incorrect,
 
 .bar-side-menu {
   border-color: transparent;
-  background-color: #f98012;
+  background-color: #000000;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #ffffff;
   height: 80px !important; }
